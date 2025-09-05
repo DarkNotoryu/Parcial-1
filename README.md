@@ -14,6 +14,3 @@ El sistema permite registrar productos, calcular ingresos totales y generar repo
   2. **Versión 2:** Clases y objetos.
   3. **Versión 3:** Diccionarios anidados.
 
----
-
-## 📂 Estructura del proyecto
