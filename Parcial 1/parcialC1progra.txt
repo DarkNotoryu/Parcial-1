@@ -1,0 +1,67 @@
+Integrantes 
+Wiliam Alexander Rodriguez Silva    SMSS049224
+Cesia Madai Avalos Díaz             SMSSS063623
+
+
+SISTEMA DE CONTROL DE VENTAS - EL SALVADOR
+-------------------------------------------
+DESCRIPCIÓN:
+Este proyecto permite a comerciantes de mercados locales llevar un control organizado 
+de sus ventas diarias. El sistema calcula ingresos totales y por producto, mostrando 
+reportes en pantalla.
+
+
+CARACTERÍSTICAS:
+- Registro de ventas diarias (producto, precio, cantidad).
+- Cálculo automático de ingresos totales.
+- Reporte de ingresos por producto.
+- Resultados ordenados por mayor ingreso.
+- Incluye 3 versiones distintas del sistema:
+  1. Versión 1: Listas y diccionarios.
+  2. Versión 2: Clases y objetos.
+  3. Versión 3: Diccionarios anidados.
+
+ESTRUCTURA DEL PROYECTO:
+El proyecto puede usarse en un solo archivo (ventas.py) o separado en módulos.
+
+proyecto/
+│── ventas.py     -> Código principal con las 3 versiones integradas
+│── README.txt    -> Este archivo con instrucciones
+
+CÓMO EJECUTAR:
+1. Tener instalado Python 3.
+2. Abrir la terminal en la carpeta del proyecto.
+3. Ejecutar el programa con:
+   python ventas.py
+4. Elegir la versión que se desea usar:
+   - 1: Listas y diccionarios
+   - 2: Clases y objetos
+   - 3: Diccionarios anidados
+
+EJEMPLO DE USO:
+
+=== SISTEMA DE CONTROL DE VENTAS ===
+1. Versión 1 (Listas + Diccionarios)
+2. Versión 2 (Clases y Objetos)
+3. Versión 3 (Diccionarios anidados)
+Selecciona una versión (1/2/3): 1
+
+¿Cuántos productos deseas registrar hoy? 2
+Producto 1: Tomates
+Precio: 0.50
+Cantidad vendida: 20
+Producto 2: Arroz
+Precio: 1.00
+Cantidad vendida: 15
+
+=== REPORTE DE VENTAS (Versión 1) ===
+Ingreso total: $25.00
+
+Ingresos por producto (ordenados):
+Arroz: $15.00
+Tomates: $10.00
+
+
+AUTOR:
+Proyecto desarrollado como práctica de programación modular en Python 
+para resolver problemas reales de comerciantes en El Salvador.
